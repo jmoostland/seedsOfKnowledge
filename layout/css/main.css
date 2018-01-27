@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+.webcontainer{
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+body {
+    margin: 0;
+    width: 100%;
+}
+/* Style the header */
+.header {
+
+    padding: 0px;
+    text-align: center;
+}
+
+/* Container for flexboxes */
+.row {
+    display: -webkit-flex;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding-left: 80px;    
+    height: 300px; /* Should be removed. Only for demonstration */
+    align-self: center
+}
+
+/* Style the footer */
+.footer, footer {
+
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .row {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
+.text-center{
+    margin-bottom: 0px;
+}
+.text-center > h2{
+
+    font-size: 60px;
+}
+.container-fluid{
+    margin-top: 0px;
+}
+.container-fluid > a{
+    float:right;
+}
+
+h3:first-child{
+
+    text-align: left;
+}
+.flex-container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+
+}
+

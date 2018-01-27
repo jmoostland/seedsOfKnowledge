@@ -1,0 +1,138 @@
+.makecourse-container{
+    margin:10px;
+    padding: 10px;
+    overflow-x:auto;
+}
+#makecourse-course-table{
+    padding-right: 10px;
+    margin-right: 10px;
+}
+.course-inputs, .course-buttons{
+    display: inline;
+
+}
+.course-inputs input[type=text]{
+    margin-left: 5px;
+    width: 400px;
+    display: inline;
+    border-radius: 5px;
+}
+
+.course-buttons button {
+    background-color: steelblue;
+    color: white;
+    margin: 0px;
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    display: inline;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 2px;
+    height: 45px;
+
+}
+.course-inputs select {
+    margin-left: 5px;
+    width: 400px;
+    display: inline;
+    border-radius: 5px;
+    height: 45px;
+
+}
+
+#coursedesc {
+    width: 800px;
+
+}
+
+#cousredelete{
+
+    background-color:red;
+    border-radius: 5px;
+    display: none;
+}
+
+#cousreadd{
+    background-color:rgb(109, 176, 89);
+
+}
+#cousreclear{
+
+    background-color: steelblue;
+
+
+}
+
+#cousreedit{
+    background-color: rgb(0, 104, 89);
+}
+
+#course-table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow-x:auto;
+    max-width: 1210px;
+
+
+}
+
+#course-table td, #course-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#course-table col:first-child {
+   width:32%;
+}
+#course-table col:nth-child(2){
+     width:57%;
+}
+
+#course-table col:last-child {
+  
+   width:8%;
+   
+}
+
+#course-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#course-table tr:hover {background-color: #ddd;}
+
+#course-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: steelblue;
+    color: white;
+    border-radius: 2px;
+}
+col:first-child {
+    width:30%;
+}
+col:nth-child(2){
+    width:55%;
+}
+col:last-child {
+
+    width:5%;
+
+}
+#course-table tr td button {
+    width: 50px;
+
+}
+#course-table tr td  {
+
+    text-align: center;
+    padding: 0px;
+    cursor: pointer;
+    height: 45px;
+}
+
+#makecourse-course-table{
+    margin-top: 10px;
+}
